@@ -3,16 +3,21 @@
   "private": true,
   "version": "1.0.0",
   "homepage": "https://github.com/benbrzezinski/goit-node-hw-01-CLI",
-  "main": "index.js",
+  "main": "index.cjs",
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "nodemon index.js"
+    "start": "node index.cjs",
+    "start:dev": "nodemon index.cjs"
   },
-  "description": "CLI app",
+  "description": "",
   "keywords": [],
   "author": "Beniamin Brzeziński <benek9311@wp.pl>",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.6"
   }
 }
